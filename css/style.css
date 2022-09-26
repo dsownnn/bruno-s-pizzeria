@@ -1,0 +1,216 @@
+/* CSS */
+  * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* Page Layouts */
+  html {
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+  }
+  
+  #header {
+    background-color: #FCF5C9;
+    height: 90px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1; 
+  }
+  
+/* Text shadows */
+  .text {
+    text-align: center;
+    background-color: #333;
+    color: #e6cf02;
+    font-size: 60px;
+    font-family: "Forsaken";
+    background-color: #c3212e;
+    text-shadow: 4px 4px 8px #000;
+} 
+
+  .section {
+    padding: 10%;
+  }
+/* Body */
+  body {
+    background-color: rgb(255, 255, 255);
+  }
+  
+/* This section shows a photo background */
+  .slide-background {
+    position: relative;
+    width: 100%;
+  }
+
+/* when we touch, the picture will be enlarged */
+  .content {
+    transform: scale(1, 1);
+    -moz-transform: scale(1, 1);
+    -webkit-transform: scale(1, 1);
+    -o-transform: scale(1, 1);
+    -ms-transform: scale(1, 1);
+  }
+  
+  .content #text-heading {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-size: 40px;
+  }
+  
+  .colums-item {
+    display: flex;
+    list-style-type: none;
+  }
+  
+  .content .product-background {
+    margin: 60px auto;
+    width: 80%;
+    max-height: 70%;
+    background-color: #f8f3d3;
+    border-radius: 10px;
+  }
+
+/* Build a frame to hold name, price, size, and ingredient tags */
+/* Box shadows */
+  .content .card {
+    margin: 30px;
+    width: 250px;
+    height: 380px;
+    background-color: #fff;
+    padding: -10px 20px;
+    border-radius: 12px;
+    border: #000 solid thin;
+    box-shadow: 10px 10px 5px grey;
+  }
+  
+  .product-pizza {
+    float: left;
+    width: 33.33333%;
+    padding-left: 69px;
+  }
+  
+  .content .pizza-picture {
+    width: 248px;
+    height: 50%;
+    border-radius: 9px;
+    display: block;
+  }
+  
+  .content .pizza-picture:hover {
+    transition: all 0.03s ease;
+    transform: scale(1.2);
+  }
+  
+  .content .pizza-name {
+    font-size: 18px;
+    padding-top: 16px;
+    text-align: center;
+  }
+  
+  .content .price {
+    font-size: 19px;
+    text-align: center;
+    margin-bottom: -2px;
+    color: #cc3300;
+  }
+  
+  .content .pizza-size {
+    display: flex;
+    padding: 8px 0px;
+    margin: 0 60px;
+  }
+  
+  .pizza-size span {
+    padding: 1px 10px;
+    border-radius: 3px;
+    margin: 1px 2px;
+    font-size: 17px;
+  }
+  
+  .pizza-size span:hover {
+    background-color: #ccc;
+    color: #454545;
+  }
+  
+  .ingredient {
+    margin-left: 5px;
+    text-align: center;
+  }
+  
+/* this is the decoration for About us */
+  #text-us {
+    font-size: 20px;
+    line-height: 1.5;
+    color: #181818;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    max-width: 1010px;
+    text-align: center;
+  }
+
+  .h1{
+    
+    font-size:28px ;
+  }
+  
+  #text-us h3 {
+    font-family: "Forsaken";
+    color: #de4635;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.25rem;
+  }
+  
+  p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+  }
+  
+/* This is the decoration for map and location  */
+  #location {
+    text-align: center;
+    padding-top: 5rem;
+    padding-bottom: 4.5rem;
+  }
+  
+  #intro p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0.9375rem;
+    padding-right: 0.9375rem;
+    max-width: 640px;
+    font-size: 20px;
+  }
+  
+  #intro h1 {
+    font-family: "Forsaken";
+    color: #de4635;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2.25rem;
+  }
+  
+  .map {
+    padding: 5%;
+    display: inline-block;
+    text-align: center;
+  }
+  
+/* Footer of the page */
+  .footer {
+    background-color: #333;
+    height: 100px;
+    color: #fff;
+    text-align: center;
+    list-style-type: none;
+  }
+  
